@@ -11,199 +11,20 @@
   <meta property="og:url" content="https://shorter.me/Z7bMu">
   <meta property="og:type" content="website">
 
-  <!-- Twitter Card -->
+  <!-- Twitter Card (buat X/Twitter biar keluar gambar) -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="🔥 Klik untuk Lanjut">
   <meta name="twitter:description" content="Klik gambar untuk membuka halaman">
   <meta name="twitter:image" content="https://i.postimg.cc/L4xJyKNT/86.webp">
 
-  <title>Video Menarik - Klik Sekarang!</title>
+  <title>Redirect</title>
 
   <!-- Redirect otomatis -->
   <meta http-equiv="refresh" content="0; url=https://shorter.me/Z7bMu">
-
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    
-    .thumbnail-container {
-      position: relative;
-      max-width: 600px;
-      width: 100%;
-      margin: 20px;
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    
-    .thumbnail-container:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7);
-    }
-    
-    .thumbnail {
-      position: relative;
-      display: block;
-      width: 100%;
-      cursor: pointer;
-    }
-    
-    .thumbnail img {
-      width: 100%;
-      display: block;
-      transition: transform 0.5s ease;
-    }
-    
-    .thumbnail:hover img {
-      transform: scale(1.03);
-    }
-    
-    /* Overlay gradient untuk meningkatkan kontras */
-    .overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.7) 100%);
-      pointer-events: none;
-    }
-    
-    /* Tombol play yang lebih menarik */
-    .play-btn {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 80px;
-      height: 80px;
-      background: rgba(255, 0, 85, 0.85);
-      border-radius: 50%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      box-shadow: 0 5px 15px rgba(255, 0, 85, 0.5);
-      transition: all 0.3s ease;
-      pointer-events: none;
-      z-index: 2;
-    }
-    
-    .play-btn::before {
-      content: "▶";
-      font-size: 30px;
-      color: white;
-      margin-left: 5px;
-    }
-    
-    .thumbnail:hover .play-btn {
-      background: rgba(255, 0, 85, 1);
-      transform: translate(-50%, -50%) scale(1.1);
-      box-shadow: 0 8px 20px rgba(255, 0, 85, 0.7);
-    }
-    
-    /* Durasi video yang lebih menarik */
-    .duration {
-      position: absolute;
-      bottom: 15px;
-      right: 15px;
-      background: rgba(0, 0, 0, 0.85);
-      color: #fff;
-      padding: 5px 10px;
-      font-size: 14px;
-      border-radius: 20px;
-      font-family: sans-serif;
-      pointer-events: none;
-      z-index: 2;
-      font-weight: bold;
-      letter-spacing: 1px;
-    }
-    
-    /* Teks clickbait yang menarik */
-    .clickbait-text {
-      position: absolute;
-      top: 15px;
-      left: 15px;
-      background: linear-gradient(45deg, #ff0055, #ff5500);
-      color: white;
-      padding: 8px 15px;
-      font-size: 16px;
-      border-radius: 20px;
-      font-weight: bold;
-      pointer-events: none;
-      z-index: 2;
-      box-shadow: 0 3px 10px rgba(255, 0, 85, 0.4);
-      animation: pulse 2s infinite;
-    }
-    
-    @keyframes pulse {
-      0% {
-        box-shadow: 0 0 0 0 rgba(255, 0, 85, 0.7);
-      }
-      70% {
-        box-shadow: 0 0 0 10px rgba(255, 0, 85, 0);
-      }
-      100% {
-        box-shadow: 0 0 0 0 rgba(255, 0, 85, 0);
-      }
-    }
-    
-    /* Badge trending */
-    .trending-badge {
-      position: absolute;
-      top: 15px;
-      right: 15px;
-      background: linear-gradient(45deg, #00b4ff, #0080ff);
-      color: white;
-      padding: 5px 12px;
-      font-size: 14px;
-      border-radius: 20px;
-      font-weight: bold;
-      pointer-events: none;
-      z-index: 2;
-      display: flex;
-      align-items: center;
-    }
-    
-    .trending-badge::before {
-      content: "🔥";
-      margin-right: 5px;
-    }
-    
-    /* Teks judul video */
-    .video-title {
-      position: absolute;
-      bottom: 50px;
-      left: 15px;
-      color: white;
-      font-size: 20px;
-      font-weight: bold;
-      text-shadow: 0 2px 5px rgba(0,0,0,0.7);
-      pointer-events: none;
-      z-index: 2;
-      max-width: 80%;
-    }
-  </style>
 </head>
-<body>
-  <div class="thumbnail-container">
-    <a href="https://shorter.me/Z7bMu" class="thumbnail">
-      <img src="https://i.postimg.cc/L4xJyKNT/86.webp" alt="Video Menarik - Klik untuk lanjut">
-      <div class="overlay"></div>
-      <div class="play-btn"></div>
-      <div class="clickbait-text">LIHAT SEKARANG!</div>
-      <div class="trending-badge">TRENDING</div>
-      <div class="video-title">Video yang Tidak Boleh Anda Lewatkan!</div>
-      <div class="duration">10:23</div>
-    </a>
-  </div>
+<body style="margin:0;padding:0;text-align:center;">
+  <a href="https://shorter.me/Z7bMu">
+    <img src="https://i.postimg.cc/L4xJyKNT/86.webp" alt="Klik untuk lanjut" style="width:100%;max-width:600px;">
+  </a>
 </body>
 </html>
